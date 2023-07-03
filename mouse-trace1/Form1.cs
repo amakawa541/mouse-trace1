@@ -33,7 +33,7 @@ namespace mouse_trace1
                 g.DrawLine(pen, previousPoint, e.Location);
             }
 
-            g.DrawEllipse(pen, e.X -10 , e.Y-10 , 20, 20);
+            g.DrawEllipse(pen, e.X - 10, e.Y - 10, 20, 20);
 
             previousPoint = e.Location;
 
@@ -43,6 +43,11 @@ namespace mouse_trace1
             Pen pen = new Pen(Color.Black);
             g.DrawEllipse(pen, e.X, e.Y, 2, 2);
             */
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
